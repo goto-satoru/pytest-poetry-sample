@@ -1,6 +1,8 @@
 # sample Poetry project to run pytest
 
 
+## files
+
 ```
 ├── README.md
 ├── hello
@@ -11,4 +13,16 @@
 ├── pyproject.toml
 └── tests
     └── test_hello.py
+```
+
+## run unit test
+
+```bash
+poetry run pytest -v
+```
+
+## run the project scipt
+
+```
+poetry run hello
 ```
